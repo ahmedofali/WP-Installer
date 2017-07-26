@@ -1,9 +1,12 @@
 {
-    "name": "root/symfony-console",
+    "name": "ahmed32ali/wp_installer",
+    "description": "Wordpress App Installer",
+    "keywords": ["Wordpress","install","download","latest"],
+    "license": "MIT",
     "authors": [
         {
-            "name": "ahmed32ali",
-            "email": "ali338888@gmail.com"
+            "name": "Ahmed Ali",
+            "email": "dev.ahmed.abbas@gmail.com"
         }
     ],
     "require": {
@@ -14,5 +17,8 @@
         "psr-4":{
             "WP\\":"src"
         }
-    }
+    },
+    "bin": [
+      "wp-installer"
+    ]
 }
